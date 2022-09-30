@@ -10,7 +10,7 @@ public class MoveObjectRB05 : MonoBehaviour
     void Start()
     {
         moveDirection = new Vector3(-2, 0,0); // Don't change this!
-        rigidbody = GetComponent<Rigidbody>();
+        rigidbody = GetComponent<Rigidbody>(); //changed the Iskinematic in inspector
     }
 
     // Update is called once per frame
